@@ -10,16 +10,13 @@ class SearchHotel extends StatelessWidget {
         actions: [
           IconButton(
             icon: Icon(Icons.notifications),
-            onPressed: () {
-              // Add notification icon functionality
-            },
+            onPressed: () {},
           ),
         ],
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding:
-              const EdgeInsets.fromLTRB(10, 0, 16, 16), // Adjust top padding
+          padding: const EdgeInsets.fromLTRB(10, 0, 16, 16),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -36,10 +33,8 @@ class SearchHotel extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(5),
                 decoration: BoxDecoration(
-                  border: Border.all(
-                      color: Colors.grey), // Adjust border color as needed
-                  borderRadius: BorderRadius.circular(
-                      10), // Adjust border radius as needed
+                  border: Border.all(color: Colors.grey),
+                  borderRadius: BorderRadius.circular(10),
                 ),
                 child: Row(
                   children: [
@@ -53,7 +48,7 @@ class SearchHotel extends StatelessWidget {
                     ),
                     SizedBox(
                       width: 8,
-                    ), // Adjust the spacing between the icons
+                    ),
                   ],
                 ),
               ),
@@ -88,8 +83,7 @@ class SearchHotel extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   margin: EdgeInsets.only(bottom: 16),
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(
-                        255, 249, 231, 253), // Change the background color
+                    color: Color.fromARGB(255, 249, 231, 253),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Column(
@@ -102,7 +96,7 @@ class SearchHotel extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                             child: Image.asset(
                               'assets/Hotel_3.jpeg',
-                              width: 250, // Adjust the width as needed
+                              width: 250,
                               height: 200,
                               fit: BoxFit.cover,
                             ),
@@ -199,8 +193,7 @@ class SearchHotel extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   margin: EdgeInsets.only(bottom: 16),
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(
-                        255, 249, 231, 253), // Change the background color
+                    color: Color.fromARGB(255, 249, 231, 253),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Column(
@@ -213,7 +206,7 @@ class SearchHotel extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                             child: Image.asset(
                               'assets/Hotel_2.jpeg',
-                              width: 250, // Adjust the width as needed
+                              width: 250,
                               height: 200,
                               fit: BoxFit.cover,
                             ),
@@ -310,8 +303,7 @@ class SearchHotel extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   margin: EdgeInsets.only(bottom: 16),
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(
-                        255, 249, 231, 253), // Change the background color
+                    color: Color.fromARGB(255, 249, 231, 253),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Column(
@@ -324,7 +316,7 @@ class SearchHotel extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                             child: Image.asset(
                               'assets/Hotel_1.jpeg',
-                              width: 250, // Adjust the width as needed
+                              width: 250,
                               height: 200,
                               fit: BoxFit.cover,
                             ),
@@ -456,7 +448,6 @@ class HotelDetails extends StatelessWidget {
                 SizedBox(height: 30),
                 Row(
                   children: [
-                    // Display rating and bonus point in one line
                     Row(
                       children: [
                         Icon(Icons.star, color: Colors.yellow),
@@ -514,7 +505,6 @@ class HotelDetails extends StatelessWidget {
                 SizedBox(height: 60),
                 Row(
                   children: [
-                    // Contact Person with Phone and Email Icons
                     Icon(Icons.person, color: Colors.purple),
                     SizedBox(width: 8),
                     Text(
@@ -540,7 +530,6 @@ class HotelDetails extends StatelessWidget {
                 SizedBox(height: 40),
                 ElevatedButton(
                   onPressed: () {
-                    // Navigate to Booking.dart when the button is pressed
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -551,8 +540,7 @@ class HotelDetails extends StatelessWidget {
                   style: ElevatedButton.styleFrom(
                     primary: Colors.purple,
                     onPrimary: Colors.white,
-                    fixedSize:
-                        Size(400, 50), // Adjust width and height as needed
+                    fixedSize: Size(400, 50),
                   ),
                   child: Text('Book Now'),
                 ),

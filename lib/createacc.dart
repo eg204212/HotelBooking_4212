@@ -132,7 +132,7 @@ class Createacc extends StatelessWidget {
                     child: IconButton(
                       icon: Image.asset('assets/google_icon.png'),
                       onPressed: () {
-                        // Add your logic for handling Google sign up
+                        
                       },
                     ),
                   ),
@@ -145,7 +145,7 @@ class Createacc extends StatelessWidget {
                     child: IconButton(
                       icon: Image.asset('assets/facebook_icon.png'),
                       onPressed: () {
-                        // Add your logic for handling Facebook sign up
+                        
                       },
                     ),
                   ),

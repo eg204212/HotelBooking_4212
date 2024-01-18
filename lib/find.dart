@@ -210,7 +210,7 @@ class _FindState extends State<Find> {
                 context,
                 MaterialPageRoute(
                   builder: (context) => SearchHotel(
-                      // Pass necessary parameters to the Booking page
+                      
                       ),
                 ),
               );
@@ -225,7 +225,7 @@ class _FindState extends State<Find> {
               style: ElevatedButton.styleFrom(
                 primary: Colors.purple,
                 onPrimary: Colors.white,
-                fixedSize: Size(400, 50), // Adjust width and height as needed
+                fixedSize: Size(400, 50), 
               ),
               child: Text(
                 'FIND',

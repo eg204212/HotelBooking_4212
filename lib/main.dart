@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(), // Set your desired starting page (Home, in this case)
+      home: Home(), 
     );
   }
 }

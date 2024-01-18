@@ -8,7 +8,7 @@ class Payment extends StatefulWidget {
 
 class _PaymentState extends State<Payment> {
   String selectedPaymentMethod =
-      ''; // Keep track of the selected payment method
+      ''; 
 
   @override
   Widget build(BuildContext context) {

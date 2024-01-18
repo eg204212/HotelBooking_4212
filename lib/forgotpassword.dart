@@ -20,7 +20,7 @@ class ForgotPassword extends StatelessWidget {
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 30,
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
@@ -30,7 +30,7 @@ class ForgotPassword extends StatelessWidget {
                     TextSpan(
                       text: 'Password...',
                       style: TextStyle(
-                        color: Colors.purple, // Set the desired color
+                        color: Colors.purple,
                       ),
                     ),
                   ],
@@ -71,11 +71,7 @@ class ForgotPassword extends StatelessWidget {
               SizedBox(height: 76.0),
               ElevatedButton(
                 onPressed: () {
-                  // Add logic to handle the password reset request
-                  // This could involve validating and updating the password
-                  // You might want to show a success message or navigate to a confirmation page
-
-                  // For demonstration purposes, navigate to the Login page
+                  
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => Login()),

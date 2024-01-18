@@ -44,7 +44,7 @@ class Final extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Navigate to the Createacc page
+                
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => Start()),
@@ -62,10 +62,10 @@ class Final extends StatelessWidget {
                 ),
               ),
             ),
-            // View E-Receipt Link
+           
             TextButton(
               onPressed: () {
-                // Add logic to view e-receipt
+                
               },
               child: Text(
                 'VIEW E-RECEIPT',
