@@ -103,6 +103,17 @@ class _PaymentState extends State<Payment> {
                       });
                     },
                   ),
+                  PaymentMethodTile(
+                    imagePath: 'assets/paypal.jpeg',
+                    label: 'Visa',
+                    value: 'Visa',
+                    groupValue: selectedPaymentMethod,
+                    onChanged: (value) {
+                      setState(() {
+                        selectedPaymentMethod = value!;
+                      });
+                    },
+                  ),
                 ],
               ),
               SizedBox(height: 30),
